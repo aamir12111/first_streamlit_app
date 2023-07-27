@@ -1,5 +1,6 @@
-import streamlit
-#import snowflake.connector  
+import streamlit\
+import requirements
+import snowflake.connector  
 streamlit.title('My Parents New Healthy Dinner')
 streamlit.header('Breakfast Menu')
 streamlit.text('Omega 3 & Blueberry Oatmeal')
