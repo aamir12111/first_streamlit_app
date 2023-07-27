@@ -20,3 +20,4 @@ def get_fruityvice_data(this_fruit_choice):
   return fruityvice_normalized
 
 import snowflake.connector
+
