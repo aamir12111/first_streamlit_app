@@ -31,7 +31,7 @@ streamlit.header("the fruit load list contains:")
 streamlit.dataframe(my_data_rows)
 
 streamlit.header("Fruityvice Fruit Advice!")
-fruit choice streamlit.text_input("What fruit would you like information about?", 'Kiwi')
+fruit_choice = streamlit.text_input("What fruit would you like information about?", 'Kiwi')
 streamlit.write("The user entered", fruit_choice)
 
 
